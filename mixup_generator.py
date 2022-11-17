@@ -2,7 +2,7 @@ import numpy as np
 
 
 class MixupImageDataGenerator():
-    def __init__(self, generator, directory, batch_size, img_height, img_width, alpha=0.2, subset=None,class_mode):
+    def __init__(self, generator, directory, batch_size, img_height, img_width, class_mode, alpha=0.2, subset=None,):
         """Constructor for mixup image data generator.
 
         Arguments:
